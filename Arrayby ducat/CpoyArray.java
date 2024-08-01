@@ -22,7 +22,7 @@ public class CpoyArray {
             {
                 if(arr[i]%2==0)
                 {
-                    arr1[x]=arr[i];
+                    arr1[x]=arr[i];	
                     x++;
                 }
                 else

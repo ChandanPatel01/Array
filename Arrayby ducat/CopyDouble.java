@@ -1,7 +1,5 @@
 public class CopyDouble{
     public static void main(String[]args){
-	      int temp=0;
-		 // int x=0;
 	       int []arr={1,5,4,9};
 		   int[]arr1=new int[arr.length];
 		   

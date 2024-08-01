@@ -1,4 +1,3 @@
-import java.util.*;
 class Max_Multi{
    public static void main(String[]args){
      int arr[][]={{3,4,1},{3,4,1},{8,2,6}};
@@ -13,13 +12,11 @@ class Max_Multi{
 	       if(arr[i][j]>max){
 		      max=arr[i][j];
 		   }
-	   j++;
-	  System.out.println("First Array: " + java.util.Arrays.toString(arr));
+	  
 	 }
 	    System.out.println();
 	  i++;
 	 }
 	  System.out.println("Multi Max Value:" +max );
-	  System.out.println("First Array: " + java.util.Arrays.toString(arr));
    }
 }
